@@ -1,0 +1,34 @@
+{
+  "name": "apif",
+  "version": "1.0.0",
+  "description": "Forward REST API requests via client-side JavaScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsuo/apif.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Daniel Suo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsuo/apif/issues"
+  },
+  "homepage": "https://github.com/danielsuo/apif#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "bulkify": "^1.4.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "nodemon": "^1.11.0",
+    "require-dir": "^0.3.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
